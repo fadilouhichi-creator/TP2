@@ -1,7 +1,7 @@
 # Compte rendu detaille - TP2 Amelioration d'images
 
-**Nom et prenom :** A completer  
-**Section :** A completer (S3 ou S4)  
+**Nom et prenom :** Fedi Louhichi  
+**Section :** S4  
 **Matiere :** Computer Vision 1  
 **Sujet :** Histogrammes, seuillage, filtrage et transformations geometriques
 

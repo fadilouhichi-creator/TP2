@@ -33,6 +33,8 @@ DOCS_DIR = BASE_DIR / "docs"
 ASSETS_DIR = DOCS_DIR / "assets"
 REPORT_MD = DOCS_DIR / "Compte_rendu_TP2.md"
 REPORT_PDF = DOCS_DIR / "Compte_rendu_TP2.pdf"
+REPORT_AUTHOR = "Fedi Louhichi"
+REPORT_SECTION = "S4"
 
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
@@ -316,8 +318,8 @@ def get_github_url():
 def write_markdown(github_url):
     content = f"""# Compte rendu detaille - TP2 Amelioration d'images
 
-**Nom et prenom :** A completer  
-**Section :** A completer (S3 ou S4)  
+**Nom et prenom :** {REPORT_AUTHOR}  
+**Section :** {REPORT_SECTION}  
 **Matiere :** Computer Vision 1  
 **Sujet :** Histogrammes, seuillage, filtrage et transformations geometriques
 
@@ -489,8 +491,8 @@ def build_pdf(github_url):
 
     identity = Table(
         [
-            ["Nom et prenom", "A completer"],
-            ["Section", "A completer (S3 ou S4)"],
+            ["Nom et prenom", REPORT_AUTHOR],
+            ["Section", REPORT_SECTION],
             ["Matiere", "Computer Vision 1"],
             ["Technologies", "Python, PyQt5, OpenCV, NumPy, Matplotlib"],
         ],
