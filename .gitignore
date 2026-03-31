@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+.venv/
+Original_Histogram.png
+Equalized_Image.png
+Equalized_Histogram.png
+Thresholding_Image.png
+Filtered_Image.png
+Augmented_Image.png
